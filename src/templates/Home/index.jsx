@@ -1,8 +1,10 @@
+import * as S from './styles';
+
 const Home = () => {
   return (
-    <div>
+    <S.Wrapper background="blue">
       <h1>home</h1>
-    </div>
+    </S.Wrapper>
   );
 };
 
