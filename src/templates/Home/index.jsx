@@ -2,7 +2,7 @@ import * as S from './styles';
 
 const Home = () => {
   return (
-    <S.Wrapper background="blue">
+    <S.Wrapper color="white">
       <h1>home</h1>
     </S.Wrapper>
   );
