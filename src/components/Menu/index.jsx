@@ -18,9 +18,9 @@ export const Menu = ({ links = [], logoData }) => {
         aria-label="Open/Close menu"
       >
         {visible ? (
-          <CloseIcon aria-label="Close Menu" />
+          <CloseIcon aria-label="Close menu" />
         ) : (
-          <MenuIcon aria-label="Open Menu" />
+          <MenuIcon aria-label="Open menu" />
         )}
       </S.MenuButton>
 
