@@ -7,9 +7,11 @@ import * as S from './styles';
 export const GridTwoColumns = ({ title, text, srcImg, background = false }) => {
   return (
     <SectionBackground background={background}>
-      <S.Container background={background}>
+      <S.Container>
         <S.TextContainer>
-          <Heading uppercase>{title}</Heading>
+          <Heading uppercase colorDark={!background}>
+            {title}
+          </Heading>
           <TextComponent>{text}</TextComponent>
         </S.TextContainer>
 
