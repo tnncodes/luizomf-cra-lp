@@ -6,13 +6,15 @@ import * as S from './styles';
 
 export const GridContent = ({ title, html, background = false }) => {
   return (
-    <SectionBackground>
+    <SectionBackground background={background}>
       <S.Container>
         <Heading uppercase colorDark={!background}>
           {title}
         </Heading>
 
-        <TextComponent>{html}</TextComponent>
+        <S.Html>
+          <TextComponent>{html}</TextComponent>
+        </S.Html>
       </S.Container>
     </SectionBackground>
   );
